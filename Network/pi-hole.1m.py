@@ -17,7 +17,7 @@ import json
 #sys.setdefaultencoding("utf-8")
 
 # Change to Your Pi-Hole Admin Console URL
-pihole = "http://192.168.0.101/admin/"
+pihole = "http://10.0.1.85/admin/"
 
 try:
     url = pihole + "api.php"
